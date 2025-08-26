@@ -12,7 +12,7 @@ def jogar():
         print('Palavra:', ' '.join(letras))
         print('Tentativas:', tentativas)
         print('Letras erradas:', erradas)
-        letra = input('Digite uma letra e tente a sorte: ')
+        letra = input('Digite uma letra e tente a sorte, lembrando que a cada erro diminui uma tentativa: ')
 
         if letra in letras or letra in erradas:
             print('Você já tentou essa letra seu frango, preste atenção.')
