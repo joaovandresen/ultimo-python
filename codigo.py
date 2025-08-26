@@ -34,3 +34,4 @@ def jogar():
         print('Você perdeu frango, vai arregar? A palavra era:', palavra)
 
 jogar()
+# FINALIZADO
